@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>/ˈTræfɪk/</title>
-    <link>http://localhost:1313/</link>
+    <link>http://traefik.github.io/</link>
     <description>Recent content on /ˈTræfɪk/</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 11 Sep 2015 00:40:46 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://traefik.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>What</title>
-      <link>http://localhost:1313/post/what/</link>
+      <link>http://traefik.github.io/post/what/</link>
       <pubDate>Fri, 11 Sep 2015 00:40:46 +0200</pubDate>
       
-      <guid>http://localhost:1313/post/what/</guid>
+      <guid>http://traefik.github.io/post/what/</guid>
       <description>&lt;p&gt;Træfɪk is a modern HTTP reverse proxy and load balancer made to deploy microservices with ease.
 It supports several backends (Docker, Mesos/Marathon, Consul, Etcd, Rest API, file&amp;hellip;) to manage its configuration automatically and dynamically (hot-reload).&lt;/p&gt;
 
@@ -24,10 +24,10 @@ It supports several backends (Docker, Mesos/Marathon, Consul, Etcd, Rest API, fi
     
     <item>
       <title>Features</title>
-      <link>http://localhost:1313/post/features/</link>
+      <link>http://traefik.github.io/post/features/</link>
       <pubDate>Fri, 11 Sep 2015 00:41:40 +0200</pubDate>
       
-      <guid>http://localhost:1313/post/features/</guid>
+      <guid>http://traefik.github.io/post/features/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;No dependency hell, single binary made with go&lt;/li&gt;
 &lt;li&gt;Simple json Rest API&lt;/li&gt;
@@ -46,10 +46,10 @@ It supports several backends (Docker, Mesos/Marathon, Consul, Etcd, Rest API, fi
     
     <item>
       <title>Get it</title>
-      <link>http://localhost:1313/post/getit/</link>
+      <link>http://traefik.github.io/post/getit/</link>
       <pubDate>Fri, 11 Sep 2015 00:41:21 +0200</pubDate>
       
-      <guid>http://localhost:1313/post/getit/</guid>
+      <guid>http://traefik.github.io/post/getit/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;The simple way: grab the latest binary from &lt;a href=&#34;https://github.com/emilevauge/traefik/releases&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/downloads/EmileVauge/traefik/latest/total.svg&#34; alt=&#34;the Github releases page&#34; /&gt;&lt;/a&gt; and just run it with the sample configuration file:&lt;/li&gt;
 &lt;/ul&gt;
