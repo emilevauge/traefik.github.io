@@ -51,8 +51,7 @@ It supports several backends (Docker, Mesos/Marathon, Consul, Etcd, Rest API, fi
       
       <guid>http://localhost:1313/post/getit/</guid>
       <description>&lt;ul&gt;
-&lt;li&gt;The simple way: go to the Github &lt;a href=&#34;https://github.com/emilevauge/traefik/releases&#34;&gt;releases&lt;/a&gt; page and get a binary for your platform.
-Just run it!&lt;/li&gt;
+&lt;li&gt;The simple way: grab the latest binary from &lt;a href=&#34;https://github.com/emilevauge/traefik/releases&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/downloads/EmileVauge/traefik/latest/total.svg&#34; alt=&#34;the Github releases page&#34; /&gt;&lt;/a&gt; and just run it with the sample configuration file:&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;pre&gt;&lt;code&gt;./traefik traefik.toml
@@ -62,7 +61,7 @@ Just run it!&lt;/li&gt;
 &lt;li&gt;Use the tiny Docker image:&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;pre&gt;&lt;code&gt;docker run -t -p 8080:8080 -p 80:80 -v $PWD/traefik.toml:/traefik.toml emilevauge/traefik
+&lt;pre&gt;&lt;code&gt;docker run -d -p 8080:8080 -p 80:80 -v $PWD/traefik.toml:/traefik.toml emilevauge/traefik
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;ul&gt;
@@ -72,17 +71,13 @@ Just run it!&lt;/li&gt;
 &lt;pre&gt;&lt;code&gt;git clone https://github.com/EmileVauge/traefik
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://circleci.com/gh/EmileVauge/traefik&#34;&gt;&lt;img src=&#34;https://circleci.com/gh/EmileVauge/traefik.svg?style=svg&#34; alt=&#34;Circle CI&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/EmileVauge/traefik/issues&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues/EmileVauge/traefik.svg&#34; alt=&#34;Issues&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://circleci.com/gh/EmileVauge/traefik&#34;&gt;&lt;img src=&#34;https://img.shields.io/circleci/project/EmileVauge/traefik.svg&#34; alt=&#34;Circle CI&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/EmileVauge/traefik&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/forks/EmileVauge/traefik.svg&#34; alt=&#34;Forks&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/EmileVauge/traefik&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/stars/EmileVauge/traefik.svg&#34; alt=&#34;Stars&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/EmileVauge/traefik/blob/master/LICENSE.md&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/license-MIT-blue.svg&#34; alt=&#34;License&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/EmileVauge&#34;&gt;&lt;img src=&#34;https://img.shields.io/twitter/url/https/github.com/EmileVauge/traefik.svg?style=social&#34; alt=&#34;Twitter&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

@@ -24,8 +24,7 @@
                     <h1>Get it</h1>
                     <span class="post-date">Fri, Sep 11, 2015</span>
                     <ul>
-<li>The simple way: go to the Github <a href="https://github.com/emilevauge/traefik/releases">releases</a> page and get a binary for your platform.
-Just run it!</li>
+<li>The simple way: grab the latest binary from <a href="https://github.com/emilevauge/traefik/releases"><img src="https://img.shields.io/github/downloads/EmileVauge/traefik/latest/total.svg" alt="the Github releases page" /></a> and just run it with the sample configuration file:</li>
 </ul>
 
 <pre><code>./traefik traefik.toml
@@ -35,7 +34,7 @@ Just run it!</li>
 <li>Use the tiny Docker image:</li>
 </ul>
 
-<pre><code>docker run -t -p 8080:8080 -p 80:80 -v $PWD/traefik.toml:/traefik.toml emilevauge/traefik
+<pre><code>docker run -d -p 8080:8080 -p 80:80 -v $PWD/traefik.toml:/traefik.toml emilevauge/traefik
 </code></pre>
 
 <ul>
@@ -45,17 +44,13 @@ Just run it!</li>
 <pre><code>git clone https://github.com/EmileVauge/traefik
 </code></pre>
 
-<p><a href="https://circleci.com/gh/EmileVauge/traefik"><img src="https://circleci.com/gh/EmileVauge/traefik.svg?style=svg" alt="Circle CI" /></a></p>
-
-<p><a href="https://github.com/EmileVauge/traefik/issues"><img src="https://img.shields.io/github/issues/EmileVauge/traefik.svg" alt="Issues" /></a></p>
+<p><a href="https://circleci.com/gh/EmileVauge/traefik"><img src="https://img.shields.io/circleci/project/EmileVauge/traefik.svg" alt="Circle CI" /></a></p>
 
 <p><a href="https://github.com/EmileVauge/traefik"><img src="https://img.shields.io/github/forks/EmileVauge/traefik.svg" alt="Forks" /></a></p>
 
 <p><a href="https://github.com/EmileVauge/traefik"><img src="https://img.shields.io/github/stars/EmileVauge/traefik.svg" alt="Stars" /></a></p>
 
 <p><a href="https://github.com/EmileVauge/traefik/blob/master/LICENSE.md"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License" /></a></p>
-
-<p><a href="https://twitter.com/EmileVauge"><img src="https://img.shields.io/twitter/url/https/github.com/EmileVauge/traefik.svg?style=social" alt="Twitter" /></a></p>
 
                 </div>
             </div>
