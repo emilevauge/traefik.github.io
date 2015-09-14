@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://traefik.github.io/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2015-09-11T00:40:46+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://traefik.github.io/post/what/</loc>
+    <loc>http://localhost:1313/post/what/</loc>
     <lastmod>2015-09-11T00:40:46+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://traefik.github.io/post/features/</loc>
+    <loc>http://localhost:1313/post/features/</loc>
     <lastmod>2015-09-11T00:41:40+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://traefik.github.io/post/getit/</loc>
+    <loc>http://localhost:1313/post/getit/</loc>
     <lastmod>2015-09-11T00:41:21+02:00</lastmod>
   </url>
   
