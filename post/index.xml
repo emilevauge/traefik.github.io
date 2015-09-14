@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on /ˈTræfɪk/</title>
+    <link>http://localhost:1313/post/</link>
+    <description>Recent content in Posts on /ˈTræfɪk/</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 11 Sep 2015 00:40:46 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>What</title>
+      <link>http://localhost:1313/post/what/</link>
+      <pubDate>Fri, 11 Sep 2015 00:40:46 +0200</pubDate>
+      
+      <guid>http://localhost:1313/post/what/</guid>
+      <description>&lt;p&gt;Træfɪk is a modern HTTP reverse proxy and load balancer made to deploy microservices with ease.
+It supports several backends (Docker, Mesos/Marathon, Consul, Etcd, Rest API, file&amp;hellip;) to manage its configuration automatically and dynamically (hot-reload).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/EmileVauge/traefik/master/docs/img/backends.png&#34; alt=&#34;Backends&#34; title=&#34;Backends&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Features</title>
+      <link>http://localhost:1313/post/features/</link>
+      <pubDate>Fri, 11 Sep 2015 00:41:40 +0200</pubDate>
+      
+      <guid>http://localhost:1313/post/features/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;No dependency hell, single binary made with go&lt;/li&gt;
+&lt;li&gt;Simple json Rest API&lt;/li&gt;
+&lt;li&gt;Simple TOML file configuration&lt;/li&gt;
+&lt;li&gt;Multiple backends supported: Docker, Mesos/Marathon, Consul, Etcd, and more to come&lt;/li&gt;
+&lt;li&gt;Watchers for backends, can listen change in backends to apply a new configuration automatically&lt;/li&gt;
+&lt;li&gt;Hot-reloading of configuration. No need to restart the process&lt;/li&gt;
+&lt;li&gt;Graceful shutdown http connections during hot-reloads&lt;/li&gt;
+&lt;li&gt;Rest Metrics&lt;/li&gt;
+&lt;li&gt;Tiny docker image included&lt;/li&gt;
+&lt;li&gt;SSL backends support&lt;/li&gt;
+&lt;li&gt;SSL frontend support&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Get it</title>
+      <link>http://localhost:1313/post/getit/</link>
+      <pubDate>Fri, 11 Sep 2015 00:41:21 +0200</pubDate>
+      
+      <guid>http://localhost:1313/post/getit/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;The simple way: go to the Github &lt;a href=&#34;https://github.com/emilevauge/traefik/releases&#34;&gt;releases&lt;/a&gt; page and get a binary for your platform.
+Just run it!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;./traefik traefik.toml
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Use the tiny Docker image:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;docker run -t -p 8080:8080 -p 80:80 -v $PWD/traefik.toml:/traefik.toml emilevauge/traefik
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;From sources:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/EmileVauge/traefik
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://circleci.com/gh/EmileVauge/traefik&#34;&gt;&lt;img src=&#34;https://circleci.com/gh/EmileVauge/traefik.svg?style=svg&#34; alt=&#34;Circle CI&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/EmileVauge/traefik/issues&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/issues/EmileVauge/traefik.svg&#34; alt=&#34;Issues&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/EmileVauge/traefik&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/forks/EmileVauge/traefik.svg&#34; alt=&#34;Forks&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/EmileVauge/traefik&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/stars/EmileVauge/traefik.svg&#34; alt=&#34;Stars&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/EmileVauge/traefik/blob/master/LICENSE.md&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/license-MIT-blue.svg&#34; alt=&#34;License&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/EmileVauge&#34;&gt;&lt;img src=&#34;https://img.shields.io/twitter/url/https/github.com/EmileVauge/traefik.svg?style=social&#34; alt=&#34;Twitter&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
