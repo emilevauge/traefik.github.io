@@ -16,9 +16,7 @@
       
       <guid>http://traefik.github.io/post/what/</guid>
       <description>&lt;p&gt;Træfɪk is a modern HTTP reverse proxy and load balancer made to deploy microservices with ease.
-It supports several backends (Docker, Mesos/Marathon, Consul, Etcd, Rest API, file&amp;hellip;) to manage its configuration automatically and dynamically (hot-reload).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/EmileVauge/traefik/master/docs/img/backends.png&#34; alt=&#34;Backends&#34; title=&#34;Backends&#34; /&gt;&lt;/p&gt;
+It supports several backends (Docker, Mesos/Marathon, Consul, Etcd, Rest API, file&amp;hellip;) to manage its configuration automatically and dynamically.&lt;/p&gt;
 </description>
     </item>
     
@@ -36,10 +34,13 @@ It supports several backends (Docker, Mesos/Marathon, Consul, Etcd, Rest API, fi
 &lt;li&gt;Watchers for backends, can listen change in backends to apply a new configuration automatically&lt;/li&gt;
 &lt;li&gt;Hot-reloading of configuration. No need to restart the process&lt;/li&gt;
 &lt;li&gt;Graceful shutdown http connections during hot-reloads&lt;/li&gt;
+&lt;li&gt;Circuit breakers on backends&lt;/li&gt;
+&lt;li&gt;Round Robin, rebalancer load-balancers&lt;/li&gt;
 &lt;li&gt;Rest Metrics&lt;/li&gt;
 &lt;li&gt;Tiny docker image included&lt;/li&gt;
 &lt;li&gt;SSL backends support&lt;/li&gt;
 &lt;li&gt;SSL frontend support&lt;/li&gt;
+&lt;li&gt;WebUI&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -51,7 +52,7 @@ It supports several backends (Docker, Mesos/Marathon, Consul, Etcd, Rest API, fi
       
       <guid>http://traefik.github.io/post/getit/</guid>
       <description>&lt;ul&gt;
-&lt;li&gt;The simple way: grab the latest binary from &lt;a href=&#34;https://github.com/emilevauge/traefik/releases&#34;&gt;&lt;img src=&#34;https://img.shields.io/github/downloads/EmileVauge/traefik/latest/total.svg&#34; alt=&#34;the Github releases page&#34; /&gt;&lt;/a&gt; and just run it with the sample configuration file:&lt;/li&gt;
+&lt;li&gt;The simple way: grab the latest binary from the &lt;a href=&#34;https://github.com/emilevauge/traefik/releases&#34;&gt;releases&lt;/a&gt; page and just run it with the &lt;a href=&#34;https://raw.githubusercontent.com/EmileVauge/traefik/master/traefik.sample.toml&#34;&gt;sample configuration file&lt;/a&gt;:&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;pre&gt;&lt;code&gt;./traefik traefik.toml
@@ -70,6 +71,8 @@ It supports several backends (Docker, Mesos/Marathon, Consul, Etcd, Rest API, fi
 
 &lt;pre&gt;&lt;code&gt;git clone https://github.com/EmileVauge/traefik
 &lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You can find the complete documentation &lt;a href=&#34;https://github.com/EmileVauge/traefik/blob/master/docs/index.md&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://circleci.com/gh/EmileVauge/traefik&#34;&gt;&lt;img src=&#34;https://img.shields.io/circleci/project/EmileVauge/traefik.svg&#34; alt=&#34;Circle CI&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
